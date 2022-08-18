@@ -14,11 +14,12 @@ table {
   margin: 3% auto;
 }
 button {
- height: 220px;
- width: 220px;
+ height: 12rem;
+ width: 12rem;
  border-radius: 25%;
  border: 20px solid black;
  outline: none;
+ display: inline-block;
 }
 .red {
   background-color: red;
