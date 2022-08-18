@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: #0E185F;
+}
+
+.bigHeading {
+  font-family: 'Press Start 2P';
+  font-size: 3rem;
+  color: #F900BF;
+  padding: 4% 5% 0;
+
+}
+table {
+  margin: 3% auto;
+}
+button {
+ height: 220px;
+ width: 220px;
+ border-radius: 25%;
+ border: 20px solid black;
+ outline: none;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.pressed {
+  background-color: grey;
+  box-shadow: 0 0 10px white;
+
+}
