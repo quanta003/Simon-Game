@@ -1,25 +1,31 @@
 body {
   text-align: center;
   background-color: #0E185F;
-}
-
-.bigHeading {
   font-family: 'Press Start 2P';
+
+}
+.header {
+  display: none;
+}
+.bigHeading {
   font-size: 3rem;
   color: #F900BF;
-  padding: 4% 5% 0;
+  padding: 5% 5% 0;
 
 }
-table {
-  margin: 3% auto;
+div {
+  width: 50%;
+  margin: auto;
+  padding-top: 5%
 }
 button {
  height: 12rem;
  width: 12rem;
  border-radius: 25%;
- border: 20px solid black;
+ border: 10px solid white;
  outline: none;
  display: inline-block;
+ margin: 3%;
 }
 .red {
   background-color: red;
@@ -39,5 +45,30 @@ button {
 .pressed {
   background-color: grey;
   box-shadow: 0 0 10px white;
+
+}
+@media screen and (max-width: 450px) {
+  header {
+    display: none;
+  }
+
+  .header {
+    display: block;
+    margin: auto;
+  }
+  .top-btn {
+    border: 5px solid white;
+    border-radius: 0;
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: #F900BF;
+    font-family: 'Press Start 2P';
+  }
+  button {
+    height: 10rem;
+    height: 10rem;
+    margin: 5%;
+  }
 
 }
